@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/baseline_supervisor_account_24"
+            android:title="account" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/baseline_share_24"
+            android:title="share" />
+
+        <item
+            android:id="@+id/nav_personal"
+            android:icon="@drawable/personal"
+            android:title="personal" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/business"
+            android:title="business" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="about" />
+
+
+
+    </group>
+</menu>
